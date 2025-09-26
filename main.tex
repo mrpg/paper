@@ -1,0 +1,68 @@
+% !TeX spellcheck = en_US
+\documentclass[english,a4paper,11pt]{article}
+
+\usepackage[natbibapa]{apacite}
+\bibliographystyle{apacite}
+
+\let\cite\citet
+
+\usepackage{tgpagella}
+\usepackage{mathpazo}
+\usepackage{authblk}
+\usepackage{setspace}
+
+\usepackage[toc,page]{appendix}
+\usepackage{todonotes}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{subcaption,graphicx,float,adjustbox}
+\usepackage{booktabs,siunitx,threeparttable,dsfont}
+
+\usepackage{microtype}
+\usepackage[citecolor=blue, pdfborder={0 0 0}, pdfauthor=, bookmarks=true]{hyperref}
+
+\theoremstyle{definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{theorem}{Theorem}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem{prediction}{Prediction}
+\newtheorem{resq}{Research Question}
+\newtheorem{result}{Result}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\title{TODO\thanks{TODO}}
+\author[1,2]{Præceptor Œconomiæ}
+\affil[1]{First University}
+\affil[2]{Second University}
+\date{September 26, 2025} % TODO
+
+\newcommand{\eg}[1]{\citep[e.g.,][]{#1}}
+
+\begin{document}
+\frenchspacing
+\maketitle
+
+\begin{abstract}
+    \input{abstract.tex}
+    \par\vspace{1em}
+
+    \noindent\textsc{JEL Classification}: TODO\par\vspace{1em}
+
+    \noindent\textsc{Keywords}: TODO
+\end{abstract}
+
+\input{acknowledgments.tex}
+\input{data.tex}
+
+% \tableofcontents
+
+\input{body.tex}
+
+\bibliography{bib}
+
+\appendix
+
+\input{appendix.tex}
+\end{document}

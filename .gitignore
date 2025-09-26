@@ -1,0 +1,325 @@
+# Core LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Build tool directories for auxiliary files
+.fls/
+.fdb_latexmk/
+
+# Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Uncomment to ignore glossary
+# *.ist
+# *.xdy
+
+# Hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+
+# TODO comments
+*.tdo
+
+# Listings
+*.lol
+
+# Makeidx
+*.idx
+*.ilg
+*.ind
+
+# Minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# Minted
+_minted*
+*.pyg
+
+# Nomenclature
+*.nlg
+*.nlo
+*.nls
+
+# Pax
+*.pax
+
+# PdfPages
+*.figlist
+*.makefile
+
+# REVTeX
+*.brf
+
+# Sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# SciWordProcessor
+*.swp
+
+# Sympy
+*.sympy
+
+# Pdflatex
+*.pdf
+
+# XeLaTeX
+*.xdv
+
+# Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Changes
+*.soc
+
+# Comment
+*.cut
+
+# Cprotect
+*.cpt
+
+# Elsarticle (*.spl normally resides in the parent directory)
+*.spl
+
+# Endnotes
+*.ent
+
+# Fixme
+*.lox
+
+# Feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+# Floatflt
+*.fff
+*.ttt
+
+# Gnuplottex
+*-gnuplottex-*
+
+# GnuPlot
+*.gnuplot
+*.table
+
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
+# Hyperref
+*.xr
+
+# knitr
+*-concordance.tex
+*.tikz
+*-tikzDictionary
+
+# Latexian
+TSWLatexianTemp*
+
+# Listings
+*.lol
+
+# LuaLaTeX
+*.fls
+
+# Makeindex
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# Minitoc
+*.maf
+*.mtc
+*.mtc0
+
+# Mpost
+*.mp
+
+# Multibib
+*.baux
+
+# Pax
+*.pax
+
+# PSTricks
+*.eps
+
+# REVTeX
+*.brf
+
+# Sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# Scrwfile
+*.wrt
+
+# Sympy
+*.sympy
+
+# TikZ & PGF
+*.auxlock
+*.fls
+*.fdb_latexmk
+*.figlist
+*.makefile
+
+# Todonotes
+*.tdo
+
+# Vhistory
+*.hst
+*.ver
+
+# Easy-todo
+*.lod
+
+# Xcolor
+*.xcp
+
+# Xindy
+*.xdy
+
+# xmpincl
+*.xmpi
+
+# Xindy
+*.xdy
+
+# xypic precompiled matrices
+*.xyc
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+# WinEdt
+*.bak
+*.sav
+
+# Texpad
+.texpadtmp
+
+# LyX
+*.lyx~
+
+# Kile
+*.kile
+
+# gummi
+.*.swp
+
+# KBibTeX
+*~[0-9]*
+
+# TeXnicCenter
+*.tps
+
+# auto folder when using emacs and auctex
+./auto/*
+*.el
+
+# expex forward references with \gathertags
+*-tags.tex
+
+# standalone packages
+*.sta
+
+# generated if empty
+*.docx
+
+# Backup and temporary files
+*~
+*.tmp
+*.temp
+*.backup
+.DS_Store
+Thumbs.db
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Custom build directories
+build/
+output/
+dist/
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
