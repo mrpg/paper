@@ -309,6 +309,7 @@ ehthumbs.db
 Thumbs.db
 
 # Editor-specific
+.claude
 .vscode/
 .idea/
 *.sublime-*
