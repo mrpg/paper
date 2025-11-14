@@ -6,19 +6,22 @@
 
 \let\cite\citet
 
-\usepackage{tgpagella}
-\usepackage{mathpazo}
+\usepackage{amssymb,amsmath,amsthm}
 \usepackage{authblk}
 \usepackage{setspace}
+\usepackage[english]{babel}
 
 \usepackage[toc,page]{appendix}
-\usepackage{todonotes}
-\usepackage{amssymb,amsmath,amsthm}
 \usepackage{subcaption,graphicx,float,adjustbox}
-\usepackage{booktabs,siunitx,threeparttable,dsfont}
+\usepackage{booktabs,siunitx,threeparttable,dsfont,multirow}
+\usepackage{tabularray}
 
-\usepackage{microtype}
-\usepackage[citecolor=blue, pdfborder={0 0 0}, pdfauthor=, bookmarks=true]{hyperref}
+\usepackage[final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\usepackage[citecolor=blue, pdfborder={0 0 0}, bookmarks=true]{hyperref}
+\usepackage{cleveref}
+
+\usepackage{newpxtext}
+\usepackage{newpxmath}
 
 \theoremstyle{definition}
 \newtheorem{proposition}{Proposition}
@@ -31,6 +34,7 @@
 \newtheorem{resq}{Research Question}
 \newtheorem{result}{Result}
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+\microtypecontext{spacing=nonfrench}
 
 \title{TODO\thanks{TODO}}
 \author[1,2]{Præceptor Œconomiæ}
