@@ -16,6 +16,10 @@
 \usepackage{booktabs,siunitx,threeparttable,dsfont,multirow}
 \usepackage{tabularray}
 
+\setlength\marginparwidth{3.5cm}
+\usepackage{changes} % This pull in todonotes, too: \todo[inline]{Long comment}
+\newcommand{\Highlight}[2]{\highlight[comment={\footnotesize #1}]{#2}}
+
 \usepackage[final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \usepackage[citecolor=blue, pdfborder={0 0 0}, bookmarks=true]{hyperref}
 \usepackage{cleveref}

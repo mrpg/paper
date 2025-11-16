@@ -1,5 +1,6 @@
 # Core LaTeX auxiliary files
 *.aux
+*.loc
 *.lof
 *.log
 *.lot
