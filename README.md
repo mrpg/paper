@@ -8,4 +8,4 @@ After you clone this repository, you can run `./setup.sh` (Linux/macOS only) to 
 
 ## License
 
-Everything in this repository is licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), or (at your option) any later version. See `LICENSE` for details. Note that there is **absolutely no warranty**.
+Everything in this repository is licensed under the Creative Commons [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license. See `LICENSE` for details. Note that there is **absolutely no warranty**.
