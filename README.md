@@ -4,7 +4,7 @@ This modular, highly readable LaTeX template for economics papers is 100% compat
 
 Can be compiled on Linux/macOS using `make`, which intelligently shows compiler output only if an error occurred.
 
-After you clone this repository, you can run `./setup.sh` (Linux/macOS only) to clean up this directory for immediate usage. This sets up a clean `git` repository and automatically applies [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) to the resulting new repository.
+After you clone this repository, you can run `./setup.sh` (Linux/macOS only) to clean up this directory for immediate usage. This sets up a clean `git` repository and automatically applies [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) to the resulting new repository.
 
 ## License
 

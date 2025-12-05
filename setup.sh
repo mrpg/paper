@@ -4,9 +4,9 @@ set -euo pipefail
 
 rm LICENSE README.md setup.sh
 
-curl -sLO "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
+curl -sO "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
 mv legalcode.txt LICENSE
-echo "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5  LICENSE" |
+echo "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411  LICENSE" |
     sha256sum -c --quiet
 
 cat <<EOF > README.md
@@ -18,7 +18,7 @@ Compile with PDFLaTeX and BibTeX (on Linux and macOS, just run \`make\`).
 
 ## License
 
-Everything in this repository is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), or (at your option) any later version. See \`LICENSE\` for details. Note that there is **absolutely no warranty**.
+Everything in this repository is licensed under the Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) license. See \`LICENSE\` for details. Note that there is **absolutely no warranty**.
 EOF
 
 rm -rf .git
