@@ -9,7 +9,6 @@
 \usepackage{amssymb,amsmath,amsthm}
 \usepackage{authblk}
 \usepackage{setspace}
-\usepackage[english]{babel}
 
 \usepackage[toc,page]{appendix}
 \usepackage{subcaption,graphicx,float,adjustbox}
@@ -20,12 +19,14 @@
 \usepackage{changes} % This pull in todonotes, too: \todo[inline]{Long comment}
 \newcommand{\Highlight}[2]{\highlight[comment={\footnotesize #1}]{#2}}
 
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage{helvet}
+\usepackage[english]{babel}
+
 \usepackage[final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \usepackage[citecolor=blue, pdfborder={0 0 0}, bookmarks=true]{hyperref}
 \usepackage{cleveref}
-
-\usepackage{newpxtext}
-\usepackage{newpxmath}
 
 \theoremstyle{definition}
 \newtheorem{proposition}{Proposition}
@@ -41,9 +42,9 @@
 \microtypecontext{spacing=nonfrench}
 
 \title{TODO\thanks{TODO}}
-\author[1,2]{Præceptor Œconomiæ}
-\affil[1]{First University}
-\affil[2]{Second University}
+\author[a,b]{Præceptor Œconomiæ}
+\affil[a]{First University}
+\affil[b]{Second University}
 \date{\today} % TODO
 
 \newcommand{\eg}[1]{\citep[e.g.,][]{#1}}
