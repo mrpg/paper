@@ -26,7 +26,9 @@
 \usepackage{helvet}
 \usepackage[english]{babel}
 
+\let\CheckCommand\providecommand
 \usepackage[final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\microtypesetup{verbose=silent}
 \usepackage[citecolor=blue, pdfborder={0 0 0}, bookmarks=true]{hyperref}
 \usepackage{cleveref}
 
@@ -41,7 +43,7 @@
 \newtheorem{resq}{Research Question}
 \newtheorem{result}{Result}
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
-\microtypecontext{spacing=nonfrench}
+\microtypecontext{spacing=french}
 
 \title{TODO\thanks{TODO}}
 \author[a,b]{Præceptor Œconomiæ}
