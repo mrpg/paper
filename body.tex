@@ -9,15 +9,22 @@ Curabitur convallis, nulla sed rhoncus molestie, augue turpis lacinia velit, sed
 \section{Conclusion}
 
 \begin{table}[htbp]
-    \caption{Summary Statistics (Modern Approach---Optional)}
+    \caption{Summary Statistics}
 
     \centering
 
     \begin{tblr}{
-            colspec = {lrrrr},
-            row{1} = {font=\bfseries},
-            hline{1,2,Z} = {solid},
-            hline{7} = {solid},
+            colspec = {X[2,l] *{4}{X[c]}},
+            row{2-6} = {rowsep=1.5pt},
+            cell{2-6}{1} = {font=\itshape},
+            hline{1} = {1.2pt},
+            hline{2} = {0.6pt},
+            hline{Z} = {1.2pt},
+            hborder{1} = {abovespace=2pt, belowspace=3pt},
+            hborder{2} = {abovespace=2pt, belowspace=2pt},
+            hborder{Z} = {abovespace=2pt, belowspace=2pt},
+            vborder{2-5} = {leftspace+=1pt, rightspace+=1pt},
+            width = \linewidth,
             }
             Variable & Mean & Std. Dev. & Min & Max \\
             Income & 45,230 & 12,340 & 18,500 & 89,750 \\
@@ -28,6 +35,11 @@ Curabitur convallis, nulla sed rhoncus molestie, augue turpis lacinia velit, sed
     \end{tblr}
 
     \label{tab:modern}
+
+    \begin{flushleft}
+        \footnotesize
+        \textit{Notes:} Income measured in USD. Education and Experience measured in years. Treatment is a binary indicator variable (${0 = \text{control}}$, ${1 = \text{treatment}}$). Sample size: ${N = 500}$.
+    \end{flushleft}
 \end{table}
 
 Nunc eleifend viverra venenatis (\Cref{tab:modern}). Donec ut vehicula nisl. Nullam dignissim ligula mattis consequat mattis. Cras auctor convallis imperdiet. Nam sit amet semper magna, at sodales ex. Duis id enim consectetur, accumsan turpis eu, auctor metus. Vestibulum vel lacus fringilla nisi bibendum scelerisque. Maecenas ullamcorper pretium suscipit. Donec id diam quam. Nullam gravida fermentum odio tincidunt laoreet.
