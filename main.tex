@@ -7,7 +7,6 @@
 \let\cite\citet
 
 \usepackage{amssymb,amsmath,amsthm}
-\usepackage{authblk}
 \usepackage{setspace}
 \usepackage[shortlabels]{enumitem}
 
@@ -48,11 +47,16 @@
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 \microtypecontext{spacing=french}
 
-\title{TODO\thanks{TODO}}
-\author[a,b]{Præceptor Œconomiæ\,\orcidlink{0000-0002-1825-0097}}
-\affil[a]{First University}
-\affil[b]{Second University}
-\date{\today} % TODO
+\title{TODO\thanks{TODO}} % \thanks{} adds an unnumbered footnote, e.g. for acknowledgments
+% Separate authors with \and; list each author's affiliations below their name
+\author{%
+  \large Præceptor Œconomiæ\,\orcidlink{0000-0002-1825-0097}\\[2pt]
+  {\footnotesize First University, Second University}
+  \and
+  \large Quæstor Œconometriæ\,\orcidlink{0000-0002-1825-0097}\\[2pt]
+  {\footnotesize Third University}
+}
+\date{\vspace{1em}\today} % TODO
 
 \newcommand{\eg}[1]{\citep[e.g.,][]{#1}}
 
@@ -64,7 +68,7 @@
     \input{abstract.tex}
     \par\vspace{1em}
 
-    \noindent\textsc{JEL Classification}: TODO\par\vspace{1em}
+    \noindent\textsc{JEL Classification}: TODO\par\vspace{1em} % economics-specific; remove or replace for other fields
 
     \noindent\textsc{Keywords}: TODO
 \end{abstract}
@@ -76,7 +80,7 @@
 
 \input{body.tex}
 
-\bibliography{bib}
+\bibliography{bib} % your .bib filename without extension
 
 \appendix
 
