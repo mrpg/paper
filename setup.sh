@@ -21,10 +21,10 @@ Compile with PDFLaTeX and BibTeX (on Linux and macOS, just run \`make\`).
 Everything in this repository is licensed under the Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) license. See \`LICENSE\` for details. Note that there is **absolutely no warranty**.
 EOF
 
-rm -rf .git
-
-git init .
-git add .
-git status
+[ -d .git ] || {
+    git init .
+    git add .
+    git status
+}
 
 echo "Setup complete."
