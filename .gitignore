@@ -311,6 +311,9 @@ Thumbs.db
 
 # Editor-specific
 .claude
+.codex
+CLAUDE.md
+AGENTS.md
 .vscode/
 .idea/
 *.sublime-*
