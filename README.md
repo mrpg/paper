@@ -1,5 +1,7 @@
 # paper
 
+<img src="template-preview.png" alt="Preview of page 1 of the paper template" width="180" align="right">
+
 This modular, highly readable LaTeX template for economics papers is 100% compatible with `pdflatex` and `bibtex`.
 
 Can be compiled on Linux/macOS using `make`, which intelligently shows compiler output only if an error occurred.
