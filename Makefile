@@ -11,7 +11,7 @@ all:
 	output=$$(bibtex main 2>&1); code=$$?; \
 	if [ $$code -ne 0 ]; then \
 		printf '%s\n' "$$output"; \
-		case "$$output" in *'I found no \citation commands'*) ;; *) exit $$code ;; esac; \
+		case "$$code:$$output" in 2:*'I found no \citation commands'*'(There was 1 error message)') ;; *) exit $$code ;; esac; \
 	fi; \
 	[ "$$before" = "$$(cksum main.bbl 2>/dev/null)" ] || echo "main.bbl changed: run make again to update the PDF"; \
 	exit $$latex
