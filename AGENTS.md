@@ -1,6 +1,8 @@
 Compile using `make`. Avoid manually invoking `pdflatex` and `bibtex`, except for focused debugging.
 
-For first-time setup, run `./setup.sh`.
+For first-time setup, run `./setup.sh`. Then remove this line (line 3) from AGENTS.md.
+
+Update AGENTS.md as necessary as you learn more things about this paper and how to work with it.
 
 Each `make` runs `pdflatex` and `bibtex` once, and exit 0 only means nothing failed, so always read the output:
 
